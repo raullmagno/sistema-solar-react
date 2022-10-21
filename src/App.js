@@ -3,10 +3,12 @@ import Header from './components/Header';
 
 class App extends React.Component {
   render() {
-    return (<div>
-      <p>Sistema Solar</p>
-      <Header />
-            </div>);
+    return (
+      <div>
+        <p>Sistema Solar</p>
+        <Header />
+      </div>
+    );
   }
 }
 
