@@ -4,12 +4,13 @@ import SolarSystem from './components/SolarSystem';
 import Missions from './components/Missions';
 import PlanetCard from './components/PlanetCard';
 
+
 class App extends React.Component {
   render() {
     return (
       <div>
         <p>Sistema Solar</p>
-        <Header />
+        <Header />  
         <SolarSystem />
         <PlanetCard />
         <Missions />
